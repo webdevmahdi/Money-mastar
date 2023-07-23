@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money master</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="h-auto w-auto">
+        <h3 id="body-heading" class="text-5xl text-center">Money master</h3>
+        <div class="content flex">
+            <div>
+                <img class="image" src="money.jpg">
+            </div>
+            <div class="main-elements">
+                    <h4 class="content-heading">Earning</h4>
+                            <!-----------------
+                            -----main inputs----
+                            ------------------->
+                    <p class="tittle">Salery:</p>
+                    <input type="text" id="salery-input" placeholder="Earning">
+
+                    <h4 class="content-heading">Expense</h4>
+
+                    <p class="tittle">Food:</p>
+                    <input type="text" id="food-input" placeholder="Food">
+
+                    <p class="tittle">Rent:</p>
+                    <input type="text" id="rent-input" placeholder="Rent">
+
+                    <p class="tittle">Cloths:</p>
+                    <input type="text" id="cloths-input" placeholder="Cloths">
+
+                    <br>
+                    <button id="button">Calculate</button>
+                    <h3 class="total-cost">Total expence: <span id="cost">0</span></h3>
+                    <h3 class="total-cost">Remainig balance: <span id="remainig-balance">0</span></h3>
+                    
+                            <!-----------------
+                            -----main savings----
+                            ------------------->
+                    <div id="savings-input">
+                        <p id="text">Save:</p>
+                        <input id="rate" type="text">
+                        <p class="parsentage">%</p>
+                        <button id="savaings-button">Save</button>
+                    </div>
+                    <!-----savings output------>
+                    <div id="savings-output">
+                        <p id="savings-text">Savings: <span id="savings">0</span></p>
+                        <br>
+                        <p id="total-balance">Total Balance: <span id="total-money">0</span></p>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <script src="moneyMaster.js"></script>
+</body>
+
+</html>
