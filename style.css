@@ -18,7 +18,7 @@
 }
 
 .content-heading {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-left: 205px;
     font-family: Roboto;
     font-size: 22px;
@@ -27,7 +27,11 @@
     color: #000;
 }
 
-#input-field {
+/* button, input, optgroup, select, textarea */
+#food-input,
+#rent-input,
+#cloths-input,
+#salery-input {
     margin-left: 200px;
     width: 229px;
     height: 34px;
@@ -59,11 +63,12 @@
     font-weight: bold;
 }
 
-#savings-input{
+#savings-input {
     display: flex;
     margin-top: 50px;
     margin-left: 100px;
 }
+
 #savings-output {
     margin-top: 50px;
     margin-left: 100px;
